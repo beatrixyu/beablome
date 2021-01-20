@@ -8,7 +8,9 @@ let oneDinaso = true;
 let oneWasa = true;
 let oneBlome = true;
 let oneDci = true;
+let oneContact = true;
 let arrPersonal = document.getElementById("personalstatement").children;
+let arrContacts = document.getElementById('contacts').children;
 let skillDiv = document.getElementById("skill");
 let arrSkill = document.getElementById("skill").children;
 let arrExperience = document.querySelector("#experience").children;
@@ -17,6 +19,7 @@ let arrWasateaHead = document.getElementById("project").children;
 let arrWasaLogo = document.getElementById("bigWasaLogoDiv").children;
 let arrBlomeLogo = document.getElementById("bigBdLogDiv").children;
 let arrDciLogo = document.getElementById("bigDciLogDiv").children;
+let arrContactLogo = document.getElementById("bigContactDiv").children;
 
 arrWasatea[0].style.opacity = "0";
 arrWasatea[0].style.transform = "rotateZ(45deg)";
@@ -468,11 +471,80 @@ function showSlides(n) {
   }
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
+
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+// Contact bubble show part
+//contact logo
+function contactLogoFunc() {
+  let dciDiv = document.getElementById("bigContactDiv").getBoundingClientRect()
+    .top;
+  if (dciDiv < window.innerHeight / 2 && dciDiv) {
+    oneContact = false;
+    setTimeout(() => {
+      arrContactLogo[0].style.width = "150px";
+      arrContactLogo[0].style.height = "150px";
+      arrContactLogo[0].style.opacity = "1";
+      arrContactLogo[0].style.transition = "all 0.5s ease-in-out";
+    }, 200);
+    setTimeout(() => {
+      arrContactLogo[1].style.fontSize = "50px";
+      arrContactLogo[1].style.opacity = "1";
+      arrContactLogo[1].style.transition = "all 0.5s ease-in-out";
+    }, 500);
+  }
+}
+window.addEventListener("scroll", contactLogoFunc);
+
+
+// contacts array
+// hidden element
+arrContacts[0].style.right = "-500px";
+arrContacts[0].style.opacity = "0";
+arrContacts[1].style.opacity = "0";
+arrContacts[2].style.opacity = "0";
+arrContacts[3].style.opacity = "0";
+arrContacts[4].style.opacity = "0";
+
+function ContactsFunc() {
+  let contacts = document
+    .getElementById("contacts")
+    .getBoundingClientRect().top;
+  // console.log(document.documentElement.scrollTop);
+  if (contacts < window.innerHeight / 1.5 && contacts) {
+    Contacts = false;
+    setTimeout(() => {
+      arrContacts[0].style.left = "0px";
+      arrContacts[0].style.opacity = "1";
+      arrContacts[0].style.transition = "all 0.2s ease-in-out";
+    }, 100);
+    setTimeout(() => {
+      arrContacts[1].style.opacity = "1";
+      arrContacts[1].style.transition = "all 1.2s ease-in-out";
+    }, 500);
+    bigWasaLogoDiv;
+    setTimeout(() => {
+      arrContacts[2].style.opacity = "1";
+      arrContacts[2].style.transition = "all 1.2s ease-in-out";
+    }, 1000);
+
+    setTimeout(() => {
+      arrContacts[3].style.opacity = "1";
+      arrContacts[3].style.transition = "all 1.2s ease-in-out";
+    }, 1500);
+
+    setTimeout(() => {
+      arrContacts[4].style.opacity = "1";
+      arrContacts[4].style.transition = "all 1.2s ease-in-out";
+    }, 2000);
+  }
+}
+window.addEventListener("scroll", ContactsFunc);
+
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function() {

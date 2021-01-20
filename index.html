@@ -366,7 +366,6 @@
         <div id="bigDciLogDiv">
             <img id="bigDciLogo" src="./img/careercomputer.png" alt="DCI">
             <h1> Digital Career Institute </h1>
-            <!-- <h5>{ Pug Sass JQuery NodeJS SQL MongoDB HTML CSS Javascript React... }</h5> -->
         </div>
         <section class="DCI">
             <div id="lineDciDiv">
@@ -404,17 +403,31 @@
                 <div class="columndci">
                     <img class="demodci cursordci" src="./img/bootstrap.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Bootstrap - IT Agency">
                 </div>
-                <div class="columndci">
-                    <img class="demodci cursordci" src="./img/reactlogo.png" style="width:100%" onclick="currentSlide(6)" alt="React - Online Spendence Record App">
+
+                <!-- react -->
+                <div class="columndci" >
+                    <img class="demodci cursordci" src="./img/reactlogo.png" style="width:100%" onclick="currentSlide(6)" alt="React - Online Spendence Recorder">
                 </div>
-                <div class="columndci">
-                    <img class="demodci cursordci" src="./img/node.png" style="width:100%" onclick="currentSlide(7)" alt="NodeJS - Chat Group App">
+                <div class="columndci" style="width:100%; display: none;" >
+                    <img class="demodci cursordci" src="./img/reactlogo.png"  style="width:100%; display: none;" onclick="currentSlide(6)" alt="React - Painting & Hua Color Picker">
                 </div>
-                <div class="columndci">
-                    <img class="demodci cursordci" src="./img/mongo.png" style="width:100%" onclick="currentSlide(8)" alt="MongoDB - Email Contact List">
+                <div class="columndci" style="width:100%; display: none;" >
+                    <img class="demodci cursordci" src="./img/reactlogo.png"  style="width:100%; display: none;" onclick="currentSlide(6)" alt="React - Tetris">
                 </div>
+                <div class="columndci" style="width:100%; display: none;" >
+                    <img class="demodci cursordci" src="./img/reactlogo.png"  style="width:100%; display: none;" onclick="currentSlide(6)" alt="React - Tic Tac Toe">
+                </div>
+                <!-- ts -->
                 <div class="columndci">
-                    <img class="demodci cursordci" src="./img/ts.svg" style="width:100%" onclick="currentSlide(9)" alt="Typescript - Drag and Drop">
+                    <img class="demodci cursordci" src="./img/ts.svg" style="width:100%" onclick="currentSlide(10)" alt="Typescript - Drag and Drop">
+                </div>
+                <!-- mongo -->
+                <div class="columndci">
+                    <img class="demodci cursordci" src="./img/mongo.png" style="width:100%" onclick="currentSlide(11)" alt="MongoDB - Email Contact List">
+                </div>
+                <!-- node -->
+                <div class="columndci">
+                    <img class="demodci cursordci" src="./img/node.png" style="width:100%" onclick="currentSlide(12)" alt="NodeJS - Chat Group App">
                 </div>
 
             </div>
@@ -462,19 +475,23 @@
                     <a href="https://beatrixyu.github.io/paint-app-react/" target=" _blank">
                     <img class="projectShortcut" src="./img/paint.png" style="width:100%; height: auto;">
                 </div>
+                <div class="mySlidesdci">
+                    <a href="https://beatrixyu.github.io/tetris-game-react/" target=" _blank">
+                    <img class="projectShortcut" src="./img/tetris.png" style="width:100%; height: auto;">
+                </div>
+                <div class="mySlidesdci">
+                    <a href="https://beatrixyu.github.io/react-hooks-games/" target=" _blank">
+                    <img class="projectShortcut" src="./img/ttt.png" style="width:100%; height: auto;">
+                </div>
                 <!-- end of react -->
-                <div class="mySlidesdci">
-                    <div class="numbertextdci"></div>
-                    <img class="projectShortcut" src="./img/socket.png" style="width:100%; height: auto;">
-                </div>
-                <div class="mySlidesdci">
-                    <div class="numbertextdci"></div>
-                    <img class="projectShortcut" src="./img/nodejs.png" style="width:100%; height: auto;">
-                </div>
                 <!-- Typescript -->
                 <div class="mySlidesdci">
                     <a href="https://beatrixyu.github.io/project-management-drag-drop-app/" target=" _blank">
                         <img class="projectShortcut" src="./img/dragdrop.png" style="width:100%; height: auto;">
+                </div>
+                <div class="mySlidesdci">
+                    <div class="numbertextdci"></div>
+                    <img class="projectShortcut" src="./img/socket.png" style="width:100%; height: auto;">
                 </div>
                 <div class="mySlidesdci">
                     <div class="numbertextdci"></div>
@@ -487,31 +504,35 @@
             </div>
         </section>
 
-
-        <section id="contact">
-            <div class="contactdetail">
-                <p>Get In Touch</p>
-                <h3>Life is not a competition, life is a self-accomplishment.
-                    <br>
-                    For partnership, business inquires, or talks with me about your ideas: <a
-                        href="mailto:beatrixyublome@gmail.com" class="email"> beatrixyublome@gmail.com</a></h3>
-                <!-- nav>ul>li*2>a>lorem1 -->
-                <nav>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/beatrix-m-b-66b081a8/" target="_blank"><img
-                                    src="img/linkedin (1).png" alt="linkedin"></a>
-                        </li>
-                        <li><a href="https://www.xing.com/profile/BeatrixM_Blome/cv?sc_o=mxb_p" target="_blank"><img
-                                    src="img/xing (3).png" alt="xing"></a>
-                        </li>
-                        <li><a href="https://github.com/beatrixyu?tab=repositories" target="_blank"><img
-                                    src="img/github (1).png" alt="xing"></a>
-                        </li>
-                    </ul>
-                </nav>
-
+        <div id="bigContactDiv">
+            <img id="contactLogo" src="./img/profilecartoon2.jpg" alt="DCI">
+            <h1>Get In Touch</h1>
+        </div>
+<!-- <section id="personalcontact">
+            <div id="lineContactDiv">
+                <div id="introLineContact"></div>
+                <img src="./img/profilecartoon2.jpg" class="cartoonimgContact">
             </div>
-            <div class="contactpic"></div>
+</section> -->
+
+
+            <section id="contacts">
+                <h3 id='contact'>Life is not a competition, life is a self-accomplishment.</h3>
+                <h3>E-mail: beatrixyublome@gmail.com </h3>
+                <h3><a href="https://www.linkedin.com/in/beatrix-m-b-66b081a8/" target="_blank"><img
+                    src="img/linkedin (1).png" alt="linkedin"></a> linkedin</h3>
+                    <h3><a href="https://www.xing.com/profile/BeatrixM_Blome/cv?sc_o=mxb_p" target="_blank"><img
+                        src="img/xing (3).png" alt="xing"></a> Xing</h3>
+                    <h3><a href="https://github.com/beatrixyu?tab=repositories" target="_blank"><img
+                        src="img/github (1).png" alt="xing"></a> Github</h3>
+            </section>
+    
+
+
+
+
+
+
             <!-- <h3>Return to top<i class="icon-arrow-down"></i> -->
 
         </section>

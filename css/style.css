@@ -27,7 +27,7 @@ header {
   list-style: none;
   display: flex;
   font-size: 20px;
-  color: rgb(99, 96, 96);
+  color: rgb(92, 91, 91);
 }
 
 /* make the space between linkedin and xing */
@@ -40,11 +40,6 @@ header {
   color: rgb(92, 91, 91);
   margin-right: 30px;
 }
-
-/* #backlinkUl li:hover {
-  font-size: 22px;
-  color: #293d3d;
-} */
 
 #backlink {
   position: absolute;
@@ -142,7 +137,7 @@ section #intro {
   #headerSmallSize {
     height: 100px;
     width: 100%;
-    background-color: rgb(255, 255, 255, 0.7);
+    background-color: rgb(92, 91, 91);
     padding: 0px;
     text-decoration: none;
     z-index: 999;
@@ -176,14 +171,14 @@ section #intro {
     font-size: 20px;
     width: 50%;
     margin-top: 15%;
-    color: rgb(99, 96, 96);
+    color: rgb(92, 91, 91);
   }
 
   .logo-text-small,
   #backlinkSmall,
   nav {
     text-transform: uppercase;
-    text-shadow: 1px 1px rgb(196, 192, 192);
+    text-shadow: 1px 1px rgb(92, 91, 91);
     list-style: none;
   }
 
@@ -198,7 +193,7 @@ section #intro {
     list-style: none;
     font-size: 15px;
     padding: 0px;
-    color: rgb(99, 96, 96);
+    color: rgb(92, 91, 91);
   }
 
   #backlinkUlSmall li {
@@ -207,7 +202,7 @@ section #intro {
   }
   #backlinkUlSmall li a {
     text-decoration: none;
-    color: rgb(99, 96, 96);
+    color: rgb(92, 91, 91);
   }
 }
 
@@ -216,7 +211,7 @@ section #intro {
 .profile1 {
   margin-top: 5%;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   /* background-image: url("../img/topimg3.gif"); */
@@ -243,7 +238,7 @@ section #intro {
   font-size: 40px;
   /* text-shadow: 3px 3px#FFBDB7; */
   /* font-family: 'Raleway', sans-serif; */
-  color: rgb(99, 96, 96);
+  color: rgb(92, 91, 91);
   font-weight: bolder;
   margin: 10px;
 }
@@ -254,14 +249,14 @@ section #intro {
   line-height: 50px;
   text-align: center;
   /* font-family: 'Raleway', sans-serif; */
-  color: rgb(99, 96, 96);
+  color: rgb(92, 91, 91);
   /* margin: 15px; */
 }
 
 /* playhard part */
 .profile2 {
   width: 100%;
-  height: 70vh;
+  height: 40vh;
   display: flex;
   /* justify-content: flex-start; */
   align-items: center;
@@ -284,16 +279,14 @@ section #intro {
 
 .playhard h2 {
   font-size: 40px;
-  /* text-shadow: 3px 3px #93dbbc; */
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
   font-weight: bolder;
   margin: 10px;
 }
 
 .playhard h5 {
   font-size: 30px;
-  /* text-shadow: 3px 3px #93dbbc; */
-  color: rgb(99, 96, 96);
+  color: rgb(92, 91, 91);
   line-height: 50px;
   text-align: center;
 }
@@ -456,7 +449,7 @@ section #intro {
   align-items: center;
   height: 170vh;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 /* cartoon picture */
@@ -501,7 +494,7 @@ section #intro {
   margin-top: 30%;
   width: 90%;
   height: 100vh;
-  color: rgb(56, 55, 55);
+  color: rgb(92, 91, 91);
   font-size: 15px;
   letter-spacing: 2px;
   line-height: 120px;
@@ -559,7 +552,7 @@ section #intro {
   height: 100vh;
 }
 .skillBar {
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
   letter-spacing: 3px;
   justify-content: center;
   align-items: center;
@@ -633,7 +626,7 @@ section #intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
   width: 100%;
   letter-spacing: 2px;
   justify-content: center;
@@ -644,7 +637,7 @@ section #intro {
   margin: 0% auto;
   font-size: 70px;
   letter-spacing: 2px;
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
   text-shadow: white;
   height: 20vh;
   display: flex;
@@ -711,7 +704,7 @@ section #intro {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
   width: 100%;
 }
 
@@ -724,9 +717,9 @@ section #intro {
   width: 40%;
   height: 200px;
   border: 5px;
-  border-color: grey;
+  border-color: rgb(92, 91, 91);
   background-color: rgb(255, 190, 184, 0.8);
-  box-shadow: 5px 5px grey;
+  box-shadow: 5px 5px rgb(92, 91, 91);
   margin-left: 2%;
   font-size: 20px;
 }
@@ -740,7 +733,7 @@ section #intro {
   width: 40%;
   height: 200px;
   border: 5px;
-  border-color: grey;
+  border-color: rgb(92, 91, 91);
   background-color: rgb(53, 236, 158, 0.5);
   box-shadow: 5px 5px grey;
   margin-right: 2%;
@@ -863,7 +856,7 @@ section #intro {
   font-size: 70px;
   margin: 0;
   letter-spacing: 3px;
-  color: rgb(73, 73, 73);
+  color: rgb(92, 91, 91);
 }
 
 /* the whole block for job examples */
@@ -872,7 +865,7 @@ section #intro {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  color: rgb(61, 60, 60);
+  color: rgb(92, 91, 91);
 }
 
 .example h2 {
@@ -929,7 +922,7 @@ section #intro {
   flex-direction: column;
   background: #7ce3b1;
   font-size: 0px;
-  text-shadow: 5px 5px #5d5b5b;
+  text-shadow: 5px 5px rgb(92, 91, 91);
   text-align: center;
   letter-spacing: 5px;
   color: white;
@@ -971,7 +964,7 @@ section #intro {
 }
 #lineWasaDiv {
   width: 100%;
-  height: 350vh;
+  height: 300vh;
   display: flex;
   position: absolute;
   z-index: -5;
@@ -1029,7 +1022,7 @@ section #intro {
   #bigWasaLogoDiv {
     height: 60vh;
     align-items: center;
-    text-shadow: 2px 2px #5d5b5b;
+    text-shadow: 2px 2px rgb(92, 91, 91);
     letter-spacing: 3px;
   }
   .wasatea h3 {
@@ -1092,7 +1085,7 @@ section #intro {
 
 .mySlideswasa p {
   font-size: 20px;
-  color: #363636;
+  color: rgb(92, 91, 91);
   letter-spacing: 2px;
   font-weight: bolder;
   margin-left: 10%;
@@ -1125,7 +1118,7 @@ img {
 .nextwasa {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -1147,7 +1140,7 @@ img {
 /* Number text (1/3 etc) */
 
 .active {
-  background-color: #717171;
+  background-color: rgb(92, 91, 91);
 }
 
 /* Fading animation */
@@ -1224,7 +1217,7 @@ img {
 /* bd div */
 #blomedesign {
   width: 100%;
-  height: 250vh;
+  height: 235vh;
 }
 #bigBdLogDiv {
   width: 100%;
@@ -1233,7 +1226,7 @@ img {
   align-items: center;
   justify-content: center;
   background: #ffbdb7;
-  text-shadow: 5px 5px #5d5b5b;
+  text-shadow: 5px 5px rgb(92, 91, 91);
   text-align: center;
   letter-spacing: 5px;
   color: white;
@@ -1563,7 +1556,7 @@ img {
   justify-content: center;
   flex-direction: column;
   background: #7ce3b1;
-  text-shadow: 5px 5px #a19090;
+  text-shadow: 5px 5px rgb(92, 91, 91);
   text-align: center;
   letter-spacing: 5px;
   color: white;
@@ -1581,6 +1574,7 @@ img {
 }
 
 .dcipic {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1594,6 +1588,7 @@ img {
 }
 
 .projectShortcut {
+  margin-top: 5%;
   width: 50%;
 }
 
@@ -1643,7 +1638,7 @@ img {
 .DCI {
   display: flex;
   flex-direction: row;
-  height: 80vh;
+  height: 60vh;
 }
 #dcileft {
   justify-content: center;
@@ -1798,6 +1793,7 @@ img {
 
 /* Hide the images by default */
 .mySlidesdci {
+  margin-top: 3%;
   display: none;
 }
 
@@ -1811,7 +1807,7 @@ img {
 .nextdci {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 55%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -1850,7 +1846,7 @@ img {
   text-align: center;
   background-color: #7ce3b1;
   color: white;
-  text-shadow: 3px 3px #5d5b5b;
+  text-shadow: 3px 3px rgb(92, 91, 91);
   letter-spacing: 3px;
   width: 100%;
   font-size: 30px;
@@ -1862,6 +1858,8 @@ img {
 
 .rowdci {
   background: white;
+  display: flex;
+  justify-content: center;
 }
 
 .rowdci:after {
@@ -1873,7 +1871,7 @@ img {
 /* language Logo columns side by side */
 .columndci {
   float: left;
-  width: 8.5%;
+  width: 6.5%;
   margin: 0 1%;
 }
 .columndci img {
@@ -1905,7 +1903,71 @@ img {
 }
 
 /* contact part */
-#contact {
+
+/* Contact div */
+#personalcontact {
+  width: 100%;
+  height: 20vh;
+}
+#bigContactDiv {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffbdb7;
+  text-shadow: 5px 5px rgb(92, 91, 91);
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  z-index: 10;
+  flex-direction: column;
+}
+#bigContactDiv h1 {
+  font-size: 0px;
+  opacity: 0;
+}
+
+#contactLogo {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  opacity: 0;
+  /* border: 15px solid #7ce3b1; */
+}
+
+#lineContactDiv {
+  margin-top: -25%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  z-index: -5;
+}
+
+#introLineContact {
+  z-index: 2;
+  background-color: #ffb7b1;
+  opacity: 0.8;
+  height: 100%;
+  width: 10px;
+  display: flex;
+  margin-left: 50%;
+}
+
+.cartoonimgContact {
+  margin-left: -55px;
+  position: sticky;
+  bottom: 30%;
+  justify-content: center;
+  align-self: center;
+  height: auto;
+  width: 100px;
+  top: 50%;
+  z-index: 3;
+}
+
+/* #contact {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -1926,7 +1988,7 @@ img {
 #contact li {
   margin: 0;
   margin-right: 5%;
-}
+} */
 
 .contactdetail {
   display: flex;
@@ -1998,17 +2060,25 @@ img {
   }
 }
 
+/* contacts array part */
+#contacts {
+  text-align: center;
+}
+
+#contacts img {
+  width: 30px;
+}
+
 footer h3 {
   width: 100%;
   text-align: center;
-  color: #293d3d;
   font-size: 20px;
   height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  color: #2e2b2b;
+  color: rgb(92, 91, 91);
 }
 @media screen and (max-width: 420px) {
   footer h3 {
@@ -2020,8 +2090,8 @@ footer h3 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(92, 91, 91);
+    background: rgb(73, 73, 73, 0.7);
     width: 50px;
     height: 50px;
     display: block;
@@ -2057,3 +2127,31 @@ footer h3 {
     top: 5px;
   }
 }
+
+/* 
+            <section id="contact">
+
+<div class="contactdetail" id='contacts'>
+<p>Get In Touch.</p>
+<h3>Life is not a competition, life is a self-accomplishment.
+    <br>
+    <!-- For partnership, business inquires, or talks with me about your ideas:  -->
+    
+    <a
+        href="mailto:beatrixyublome@gmail.com" class="email"> beatrixyublome@gmail.com</a></h3>
+<!-- nav>ul>li*2>a>lorem1 -->
+<nav>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/beatrix-m-b-66b081a8/" target="_blank"><img
+                    src="img/linkedin (1).png" alt="linkedin"></a>
+        </li>
+        <li><a href="https://www.xing.com/profile/BeatrixM_Blome/cv?sc_o=mxb_p" target="_blank"><img
+                    src="img/xing (3).png" alt="xing"></a>
+        </li>
+        <li><a href="https://github.com/beatrixyu?tab=repositories" target="_blank"><img
+                    src="img/github (1).png" alt="xing"></a>
+        </li>
+    </ul>
+</nav>
+
+</div> */
