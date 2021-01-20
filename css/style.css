@@ -211,7 +211,7 @@ section #intro {
 .profile1 {
   margin-top: 5%;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   /* background-image: url("../img/topimg3.gif"); */
@@ -231,7 +231,7 @@ section #intro {
 .workhardImg,
 .playhardImg {
   width: 50%;
-  height: 70vh;
+  height: 60vh;
   opacity: 0.8;
 }
 .workhard h2 {
@@ -256,7 +256,7 @@ section #intro {
 /* playhard part */
 .profile2 {
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   display: flex;
   /* justify-content: flex-start; */
   align-items: center;
