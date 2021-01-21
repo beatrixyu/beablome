@@ -1911,7 +1911,7 @@ img {
 }
 #bigContactDiv {
   width: 100%;
-  height: 40vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2020,8 +2020,8 @@ img {
 /* email link setup */
 
 .email:link {
-  color: #293d3d;
-  text-decoration: none;
+  color: rgb(92, 91, 91);
+  text-decoration: rgb(92, 91, 91);
 }
 
 .email:hover {
@@ -2063,10 +2063,13 @@ img {
 /* contacts array part */
 #contacts {
   text-align: center;
+  color: rgb(92, 91, 91);
+  text-shadow: none;
 }
 
 #contacts img {
   width: 30px;
+  margin: 0 0.5%;
 }
 
 footer h3 {
