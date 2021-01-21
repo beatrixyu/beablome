@@ -506,7 +506,6 @@ window.addEventListener("scroll", contactLogoFunc);
 arrContacts[0].style.right = "-500px";
 arrContacts[0].style.opacity = "0";
 arrContacts[1].style.opacity = "0";
-arrContacts[2].style.opacity = "0";
 
 function ContactsFunc() {
   let contacts = document
@@ -518,16 +517,16 @@ function ContactsFunc() {
     setTimeout(() => {
       arrContacts[0].style.left = "0px";
       arrContacts[0].style.opacity = "1";
-      arrContacts[0].style.transition = "all 1.2s ease-in-out";
+      arrContacts[0].style.transition = "all 1.5s ease-in-out";
     }, 100);
     setTimeout(() => {
       arrContacts[1].style.opacity = "1";
-      arrContacts[1].style.transition = "all 1.4s ease-in-out";
+      arrContacts[1].style.transition = "all 1s ease-in-out";
     }, 500);
-    setTimeout(() => {
-      arrContacts[2].style.opacity = "1";
-      arrContacts[2].style.transition = "all 1.6s ease-in-out";
-    }, 1000);
+    // setTimeout(() => {
+    //   arrContacts[2].style.opacity = "1";
+    //   arrContacts[2].style.transition = "all 1.6s ease-in-out";
+    // }, 1000);
   }
 }
 window.addEventListener("scroll", ContactsFunc);

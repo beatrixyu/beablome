@@ -1641,14 +1641,14 @@ img {
   height: 60vh;
 }
 #dcileft {
-  justify-content: center;
+  justify-content: flex-end;
   align-self: center;
   width: 50%;
   height: 60vh;
 }
 
 #dciright {
-  justify-content: center;
+  justify-content: flex-start;
   align-self: center;
   width: 50%;
   height: 60vh;
@@ -1657,8 +1657,9 @@ img {
 #dciright h1,
 #dcileft h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 0%;
+  margin-top: 10%;
 }
 
 #dcileft img {
