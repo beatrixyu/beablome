@@ -137,7 +137,7 @@ section #intro {
   #headerSmallSize {
     height: 100px;
     width: 100%;
-    background-color: rgb(92, 91, 91);
+    background-color: white;
     padding: 0px;
     text-decoration: none;
     z-index: 999;
@@ -178,7 +178,6 @@ section #intro {
   #backlinkSmall,
   nav {
     text-transform: uppercase;
-    text-shadow: 1px 1px rgb(92, 91, 91);
     list-style: none;
   }
 
@@ -203,6 +202,13 @@ section #intro {
   #backlinkUlSmall li a {
     text-decoration: none;
     color: rgb(92, 91, 91);
+  }
+
+  .logo-text,
+  #backlink,
+  nav {
+    /* text-transform: uppercase; */
+    text-shadow: none;
   }
 }
 
@@ -395,7 +401,7 @@ section #intro {
   .playhard {
     width: 45%;
     position: absolute;
-    margin-left: 0px;
+    margin-left: 50px;
   }
 
   .playhardImg {
@@ -1076,6 +1082,14 @@ section #intro {
     justify-content: center;
     align-items: center;
     height: 50vh;
+    width: 100%;
+  }
+
+  .slideshow-containerwasa {
+    padding: 0;
+  }
+  .mySlideswasa p {
+    padding: 0 4%;
   }
 }
 
@@ -1088,7 +1102,6 @@ section #intro {
   color: rgb(92, 91, 91);
   letter-spacing: 2px;
   font-weight: bolder;
-  margin-left: 10%;
 }
 
 .mySlideswasa img {
@@ -1111,6 +1124,12 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+@media screen and (max-width: 420px) {
+  .slideshow-containerwasa {
+    width: 100%;
+  }
 }
 
 /* Next & previous buttons */
@@ -1371,7 +1390,7 @@ img {
 
 #amazonDiv h1 {
   justify-content: center;
-  font-size: 30px;
+  font-size: 20px;
   background: white;
   line-height: 100px;
   margin: 0 auto;
@@ -1543,6 +1562,10 @@ img {
     justify-content: center;
     margin: 5%;
     text-align: center;
+  }
+
+  .amazon {
+    width: 90%;
   }
 }
 
@@ -1773,6 +1796,7 @@ img {
   }
   #dcileft img {
     width: 90%;
+    margin-left: 0;
   }
 }
 
@@ -2104,6 +2128,7 @@ footer h3 {
     -moz-border-radius: 35px;
     border-radius: 35px;
     display: none;
+    z-index: 999;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -2124,7 +2149,7 @@ footer h3 {
     transition: all 0.3s ease;
   }
   #return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgb(92, 91, 91);
   }
   #return-to-top:hover i {
     color: #fff;
