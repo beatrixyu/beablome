@@ -338,7 +338,7 @@ window.addEventListener("scroll", wasaLogoFunc);
 //wasatea text part
 function wasaFunc() {
   let scrollPosition = window.pageYOffset;
-  if (scrollPosition > 5000) {
+  if (scrollPosition > 3000) {
     setTimeout(() => {
       arrWasatea[0].style.opacity = "1";
       arrWasatea[0].style.transform = "rotateZ(0deg)";
