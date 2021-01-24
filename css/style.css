@@ -523,7 +523,7 @@ section #intro {
     top: 50%;
   }
   .profilecartoon {
-    height: 100vh;
+    height: 110vh;
     margin-top: 20%;
   }
 
@@ -607,7 +607,7 @@ section #intro {
     flex-direction: column;
     font-size: 10px;
     letter-spacing: 4px;
-    height: 80vh;
+    height: 90vh;
   }
 
   #skill img {
@@ -761,7 +761,7 @@ section #intro {
 /* experience tablet size */
 @media screen and (max-width: 768px) {
   #experience {
-    height: 100vh;
+    height: 170vh;
   }
 
   #lineExpDiv1 {
@@ -808,7 +808,7 @@ section #intro {
   }
 
   #lineExpDiv1 {
-    height: 150vh;
+    height: 200vh;
   }
   .ex2018,
   .ex2016,
@@ -875,7 +875,7 @@ section #intro {
 }
 
 .example h2 {
-  margin: 20px 10px 5px 0;
+  /* margin: 20px 10px 5px 0; */
   letter-spacing: 2.5px;
 }
 
@@ -1023,13 +1023,15 @@ section #intro {
 }
 @media screen and (max-width: 420px) {
   #lineWasaDiv {
-    height: 250vh;
+    height: 280vh;
   }
   #bigWasaLogoDiv {
     height: 60vh;
     align-items: center;
-    text-shadow: 2px 2px rgb(92, 91, 91);
     letter-spacing: 3px;
+  }
+  #bigWasaLogoDiv h1 {
+    font-size: 30px !important;
   }
   .wasatea h3 {
     width: 80%;
@@ -1230,6 +1232,10 @@ img {
     height: 50px;
     display: flex;
     align-items: center;
+  }
+  .prevwasa,
+  .nextwasa {
+    padding: 10px;
   }
 }
 
@@ -1493,7 +1499,9 @@ img {
   #bigBdLogDiv {
     height: 60vh;
   }
-
+  #bigBdLogDiv h1 {
+    font-size: 30px !important;
+  }
   .blomepic {
     height: 80vh;
   }
@@ -1765,15 +1773,20 @@ img {
   #bigDciLogDiv {
     height: 60vh;
   }
+  #bigDciLogDiv h1 {
+    font-size: 30px !important;
+  }
   .DCI {
     flex-direction: column;
-    height: 100vh;
+    height: 115vh;
+  }
+  #lineDciDiv {
+    margin-top: -30%;
   }
   #dcileft h1 {
     font-size: 20px;
     background: white;
   }
-
   #dciright h1 {
     font-size: 20px;
     background: white;
@@ -1925,6 +1938,16 @@ img {
   .containerdci {
     width: 100%;
   }
+  .columndci {
+    width: 10.5%;
+    margin: 0 0.1%;
+  }
+  .prevdci,
+  .nextdci {
+    top: 70%;
+    padding: 10px;
+    font-size: 10px;
+  }
 }
 
 /* contact part */
@@ -2065,6 +2088,10 @@ img {
 @media screen and (max-width: 420px) {
   #contact {
     flex-direction: column;
+    font-size: 18px;
+  }
+  #bigContactDiv h1 {
+    font-size: 30px !important;
   }
   .contactdetail {
     width: 80%;
@@ -2112,49 +2139,48 @@ footer h3 {
   footer h3 {
     font-size: 15px;
   }
-
-  /* return to top arrow */
-  #return-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(92, 91, 91);
-    background: rgb(73, 73, 73, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    z-index: 999;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  #return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-  }
-  #return-to-top:hover {
-    background: rgb(92, 91, 91);
-  }
-  #return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-  }
+}
+/* return to top arrow */
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(92, 91, 91);
+  background: rgb(73, 73, 73, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  z-index: 999;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgb(92, 91, 91);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
 }
 
 /* 
