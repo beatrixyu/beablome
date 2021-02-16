@@ -1042,7 +1042,7 @@ section #intro {
     font-size: 15px;
   }
   .wasaintro2 {
-    margin-left: 32%;
+    margin-left: 25%;
   }
   .cartoonimgWasa {
     opacity: 0.4;
@@ -1700,24 +1700,23 @@ img {
 
 #dciright img {
   width: 50%;
-  margin-left: 20%;
+  margin-left: 25%;
 }
 
 #itSkill:hover {
-  border-radius: 50%;
   width: 52%;
 }
-#itSkill {
+/* #itSkill {
   border-radius: 50%;
-}
+} */
 
 #computerSkill:hover {
   width: 52%;
 }
 
-#computerSkill {
+/* #computerSkill {
   border-radius: 50%;
-}
+} */
 
 @media screen and (max-width: 768px) {
   #bigDciLogDiv {
