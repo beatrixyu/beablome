@@ -453,7 +453,7 @@ section #intro {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 170vh;
+  height: 200vh;
   width: 100%;
   margin-top: 20%;
 }
@@ -970,7 +970,7 @@ section #intro {
 }
 #lineWasaDiv {
   width: 100%;
-  height: 300vh;
+  height: 310vh;
   display: flex;
   position: absolute;
   z-index: -5;
