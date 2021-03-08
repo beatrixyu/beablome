@@ -968,6 +968,11 @@ section #intro {
   margin-bottom: 5% auto;
   opacity: 0;
 }
+
+#bigWasaLogoDiv h1 {
+  opacity: 0;
+}
+
 #lineWasaDiv {
   width: 100%;
   height: 310vh;
